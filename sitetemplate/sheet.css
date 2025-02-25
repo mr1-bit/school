@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 5px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: bisque;
+    border-radius: 15px;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15 px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(2, 96, 96);
+    border-radius: 5px;
+    
+}
+.navbar a:hover{
+    background-color: #c0c0c0;}
+
+
+.navbar li{
+    float: left;
+}
+
+.navbar h1{
+    font-size: 25px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+

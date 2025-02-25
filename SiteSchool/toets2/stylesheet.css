@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    height: 50vh;
+
+}
+#verzend{
+    font-size: 15px;
+    color: white;
+
+}
+#textpage2{
+    font-size: 15px;
+    color: white;
+ 
+}
+#textpage{
+   display: flex;
+   justify-content: flex-start;
+}
+#header{
+    flex: -1;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+#header2{
+    flex: -1;
+    display: flex;
+    background-color: yellowgreen;
+}
+#img3{
+    border:  15px solid yellowgreen;
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+
+}
+
+#textred{
+    margin: 0px;
+    margin-left: 10px;
+    padding:0%;
+    color: darkred;
+}
+#textredbold{
+    margin: 0px;
+    color: darkred;
+    font-weight: bold;
+    padding: 0px;
+}
+
+#img2{
+    width: 100px;
+    height: 100px;
+}
+#img1{
+    width: 100px;
+    height: 100px;
+}
+
+#header h1{
+    color: white;
+    text-align: center;
+    
+    
+}
+
+#main{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid yellowgreen;
+    
+}
+.sidebar{
+    background-color: white;
+    width: 80%;
+    border-right: 15px solid yellowgreen;;
+    border-left: 15px solid yellowgreen;;;
+}
+
+
+h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+h4{
+    margin: 0px;
+    margin-left: 10px;
+    padding:0%;
+    font-weight: lighter;
+}
+
+
+.image{
+    background-color: yellow;
+}

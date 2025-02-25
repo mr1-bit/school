@@ -1,0 +1,96 @@
+
+body{
+    margin: 0.5%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+    padding: 15 px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.navbar a:hover{
+    background-color: #c0c0c0;}
+
+
+.navbar li{
+    float: left;}
+
+
+
+hr{
+   border: 3px solid black;
+}
+
+/* main text */
+
+#text{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* links in nav */
+a{
+    text-decoration: none;
+    color: rgb(98, 5, 246);
+}
+
+
+/* text in navbar */
+#navtext{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2b0268;
+    font-family: sans-serif;
+}
+
+/* active navbar page indicator */
+#active{
+    background-color: #cac2c2;
+    border: 3px;
+    border-color: black
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+   
+}

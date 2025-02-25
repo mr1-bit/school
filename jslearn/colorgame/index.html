@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorgame</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>color game</h1>
+    <br>
+    
+    <div id="GameContainer">
+            <div id="div0" class="GamePart" onclick="check(0)"></div>
+            <div id="div1" class="GamePart" onclick="check(1)"></div>
+            <div id="div2" class="GamePart" onclick="check(2)"></div>
+            <div id="div3" class="GamePart" onclick="check(3)"></div>
+            <div id="div4" class="GamePart" onclick="check(4)"></div>
+            <div id="div5" class="GamePart" onclick="check(5)"></div>
+            <div id="div6" class="GamePart" onclick="check(6)"></div>
+            <div id="div7" class="GamePart" onclick="check(7)"></div>
+            <div id="div8" class="GamePart" onclick="check(8)"></div>
+    </div>
+
+    <div id="MainPart" class="base"></div>
+    <br>
+    <label for="">interval</label>
+    <input type="number" id="intervaltime" value="1" >
+    <button onclick="start()" id="start">start</button>
+    <button onclick="stop()" id="stop">stop</button>
+    <br>
+    <label for="">wins:</label>
+    <h1 id="wins">0</h1>
+</body>
+
+<script src="Engine.js"></script>
+
+</html>

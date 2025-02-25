@@ -6,3 +6,10 @@ function loadDoc() {
     xhttp.open("GET", "ajax_info.txt", true);
     xhttp.send();
   }
+  // dom innerhtml
+  // doc.getelementbyId => innerhtml => style || . value
+  // console.log ||  window alert
+  // function() => aanroepen
+  // onclick()
+  // js array => maken uitbreiden => forloop => inhoud in tabel invullen
+  //text => uitlezen => inhoudlezen => actie

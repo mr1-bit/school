@@ -16,3 +16,12 @@ function Name (){
 function name(params) {
     
 }
+let yourmom = [[""], [""], [""]];
+
+  // dom innerhtml
+  // doc.getelementbyId => innerhtml => style || . value
+  // console.log ||  window alert
+  // function() => aanroepen
+  // onclick()
+  // js array => maken uitbreiden => forloop => inhoud in tabel invullen
+  //text => uitlezen => inhoudlezen => actie

@@ -1,1 +1,1 @@
-sql dattabase pass = HT76!#jhasjh
+sql dattabase pass = "-unavalibole for git"

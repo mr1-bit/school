@@ -17,10 +17,11 @@ let users = [
 function check(value) {
 
     if(value == "username"){
+
         console.log(naam.value);
+
         if (naam.value.length == "") {
             console.log("leeg");
-
         }
 
         else if (naam.value.length < 2) {
@@ -36,7 +37,7 @@ function check(value) {
         }
     }
     else if(value == "password"){
-        console.log(wachtwoord.value);
+        
         if (wachtwoord.value.length == "") {
             console.log("leeg")
     ;

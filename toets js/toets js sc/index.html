@@ -11,17 +11,17 @@
     <br>
     <label for="">Inlog naam</label>
     <br>
-    <input type="text" id="naam" onkeyup="check()">
+    <input type="text" id="naam" onkeyup="check('username')">
     <br>
     <label for="">Wachtwoord</label>
     <br>
-    <input type="text" id="wachtwoord" onkeyup="check2()">
+    <input type="password" id="wachtwoord" onkeyup="check('password')">
     <br>
-    <p id="one"></p>
-    <p id="two"></p>
+    <p id="userNameError"></p>
+    <p id="passwordError"></p>
     <button onclick="Login()">Login</button>
     <br>
-    <p id="three"></p>
+    <p id="loginError"></p>
     
     <script src="script.js"></script>
     <p id="Table"></p>

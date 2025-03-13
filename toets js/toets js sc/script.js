@@ -58,6 +58,7 @@ function check(value) {
 }
 
 function Login() {
+    
     console.log(naam.value + " probeert in te loggen");
     for (let i = 0; i < users.length; i++) {
 

@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Log in</h1>
-    <br>
-    <label for="">Inlog naam</label>
-    <br>
-    <input type="text" id="naam" onkeyup="check('username')">
-    <br>
-    <label for="">Wachtwoord</label>
-    <br>
-    <input type="password" id="wachtwoord" onkeyup="check('password')">
-    <br>
-    <p id="userNameError"></p>
-    <p id="passwordError"></p>
-    <button onclick="Login()">Login</button>
-    <br>
-    <p id="loginError"></p>
-    
-    <script src="script.js"></script>
-    <p id="Table"></p>
+    <div class="container">
+        <h1>Log in</h1>
+        <br>
+        <label for="">Inlog naam</label>
+        <br>
+        <br>
+        <input type="text" id="naam" onkeyup="check('username')">
+        <br>
+        <br>
+        <label for="">Wachtwoord</label>
+        <br>
+        <br>
+        <input type="password" id="wachtwoord" onkeyup="check('password')">
+        <br>
+        <p id="userNameError"></p>
+        <p id="passwordError"></p>
+        <button onclick="Login()" class="login-button">Login</button>
+        <br>
+        <p id="loginError"></p>
+        
+        <script src="script.js"></script>
+        <p id="Table"></p>
+    </div>
 </body>
 </html>

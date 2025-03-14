@@ -18,8 +18,6 @@ function check(value) {
 
     if(value == "username"){
 
-        console.log(naam.value);
-
         if (naam.value.length == "") {
             console.log("leeg");
         }
@@ -74,7 +72,7 @@ function Login() {
         }
         else{
 
-            loginErrorElement.innerHTML = "error has occured";
+            loginErrorElement.innerHTML = "Login error";
             loginErrorElement.style.color = "red";
 
             continue;

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+ 
     <div id="container">
         <div id="header">
             <h1>koptekst</h1>
@@ -31,6 +31,7 @@
             </div>
             <div class="sidebar">sidebar left</div>
         </div>
+
 
 
         <div id="footer">footer</div>
